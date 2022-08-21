@@ -15,6 +15,17 @@ h1 {
   margin: 15px auto;
 }
 
+.hola-mundo:hover {
+background-color: rgb(255, 95, 2);
+transition: .3s;
+}
+
+h1:hover{
+    color: white;
+    transform: skew(-15deg);
+    transition: .3s;
+}
+
 .flex-index{
     display: flex;
     flex-wrap: wrap;
